@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: guru.springframework.msscbrewery.MsscBreweryApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.016 s <<< FAILURE! - in guru.springframework.msscbrewery.MsscBreweryApplicationTests
-contextLoads(guru.springframework.msscbrewery.MsscBreweryApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerController' defined in file [/home/mschulenberg/dev/udemy/learn-to-master-spring-boot-microservices/04-spring-mvc-rest-services/mssc-brewery/target/classes/guru/springframework/msscbrewery/web/controller/CustomerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'guru.springframework.msscbrewery.services.CustomerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'guru.springframework.msscbrewery.services.CustomerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-
